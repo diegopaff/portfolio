@@ -4,18 +4,16 @@ import { About, Contact, Footer, Hero, Navbar, Proyects, Skills } from './compon
 
 const App = () => {
   return (
-    <div className='bg-primary w-full overflow-hidden flex flex-col'>
+    <div className='bg-[#0F172A] overflow-hidden flex flex-col'>
       <div className={`${styles.paddingX} w-full`}>
-        <div className={`${styles.boxWidth}`}> 
+        <div className='w-full'> 
           <Navbar/>
         </div>
 
       </div>
       
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero/>
-        </div>
+      <div className={`bg-[#0F172A] w-full`}>
+        <Hero/>
       </div>
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>

@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
+
     extend: {
       colors: {
         primary: "#00040f",
@@ -12,6 +13,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        pacifico: ["Pacifico", "cursive"],
       },
     },
     screens: {
