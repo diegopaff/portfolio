@@ -1,28 +1,40 @@
 import React from 'react';
-import styles from './style.js';
-import { About, Contact, Footer, Hero, Navbar, Proyects, Skills } from './components'; 
+import { About, Contact, Footer, Hero, Navbar, Projects, Skills } from './components'; 
 
 const App = () => {
   return (
     <div className='bg-[#0F172A] overflow-hidden flex flex-col'>
-      <div className={`${styles.paddingX} w-full`}>
-        <div className='w-full'> 
-          <Navbar/>
-        </div>
-
+      <div className={`w-full flex justify-center`}>
+        <Navbar/>
       </div>
-      
-      <div className={`bg-[#0F172A] w-full`}>
+
+      <div className={`bg-[#0F172A] h-screen mt-[-18px] mb-20 `}>
         <Hero/>
       </div>
 
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+      <div className='diagonal-dark-to-light'></div>
+
+      <div className={`bg-[#1E293B]`}>
+        
+        <div id='About' className={``}>
           <About/>
-          <Skills/>
-          <Proyects/>
-          <Contact/>        
         </div>
+
+        <div className='diagonal-light-to-dark'></div> 
+        <div id='Skills' className={`bg-[#0F172A]`}>
+          <Skills/>
+        </div>
+        <div className='diagonal-dark-to-light'></div>
+
+        <div id='Projects' className=''>
+          <Projects/>
+        </div>
+
+        <div id='Contact'>
+          <Contact/>
+        </div >
+                
+        
       </div>
       <footer>
         <Footer/>

@@ -5,7 +5,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Hero from './Hero';
 import Navbar from './Navbar';
-import Proyects from './Proyects';
+import Projects from './Projects';
 import Skills from './Skills';
 
 
@@ -16,6 +16,6 @@ export {
     Footer,
     Hero,
     Navbar,
-    Proyects,
+    Projects,
     Skills,
 };
