@@ -7,11 +7,11 @@ const ProjectCard = ( Project ) => {
     /* Project.Project.tools.map( item => console.log(item)) */
   return (
     
-        <div className="max-w-sm flex flex-col min-h-[550px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
+        <div className="max-w-sm flex flex-col h-[550px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
 
-            <a href="#" className='opacity-30 hover:opacity-90 transition-all ease-in-outn'>
+            <div className='opacity-30 hover:opacity-90 transition-all ease-in-outn h-[200px] overflow-hidden hover:h-[350px] duration-700'>
                 <img className="rounded-t-lg grayscale-0" src={`../../public/${Project.Project.thumbnail}`} alt="" />
-            </a>
+            </div>
             <div className="p-5 flex flex-col justify-between h-full">
                 <div>
 

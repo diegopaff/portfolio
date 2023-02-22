@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-11
                      py-36'>
-          <h3 className='font-poppins font-regular text-xl text-white border-b-8 border-[#7477FF] '>
+          <h3 className='font-poppins font-semibold text-xl text-white border-b-8 border-[#7477FF] '>
             Tools I Use
           </h3>
           <div className='flex flex-wrap gap-10 px-11 justify-center'>

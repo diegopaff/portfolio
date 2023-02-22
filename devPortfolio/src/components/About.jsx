@@ -19,15 +19,21 @@ const About = () => {
 
       <div className='flex flex-col w-full gap-8 justify-center items-center text-center px-8
                       md:w-full md:items-start'>
-        <h2 className='font-poppins font-bold text-xl text-white border-b-8 border-[#7477FF] 
+        <h2 className='font-poppins font-semibold text-xl text-white border-b-8 border-[#7477FF] 
                        md:justify-self-start
                       '>
           About Me
         </h2>
-        <p className='font-poppins font-regular text-sm text-white 
+        <div className='flex flex-col gap-5 font-poppins font-regular text-sm text-white 
                       md:text-left md:text-base'>
+
+        <p>
           Ever since I was a kid, I've always been fascinated by technology. Whether it was taking apart my family's old computer or experimenting with different software, I couldn't get enough. As I grew up, my passion for technology led me down all sorts of exciting paths - from making music and taking photos, to working on video production, post-production for local films, and to be a data analyst for a profesional football team.
         </p>
+        <p >
+          Now, as a self-taught front-end developer, I'm able to combine all of my previous skills and passions into one cohesive career. My background in music and sound engineering helps me understand the importance of user experience and how different elements work together to create a seamless flow. And my experience in video production and post-production has given me an eye for design and attention to detail that I bring to every project. It's amazing how all of these seemingly disparate interests have come together to create a fulfilling and exciting career path. 
+        </p>
+        </div>
       </div>
 
     </div>
