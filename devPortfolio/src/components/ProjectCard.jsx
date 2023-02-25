@@ -10,7 +10,7 @@ const ProjectCard = ( Project ) => {
         <div className="max-w-sm flex flex-col h-[400px] md:h-[450px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
 
             <div className='opacity-30 hover:opacity-90 transition-all ease-in-outn h-[200px] overflow-hidden hover:h-[350px] duration-700'>
-                <img className="rounded-t-lg grayscale-0" src={`../../public/${Project.Project.thumbnail}`} alt="" />
+                <img className="rounded-t-lg grayscale-0" src={`${Project.Project.thumbnail}`} alt="" />
             </div>
             <div className="p-5 flex flex-col justify-between h-full">
                 <div>
