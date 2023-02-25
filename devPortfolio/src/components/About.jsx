@@ -13,7 +13,7 @@ const About = () => {
         <div className='flex justify-center items-center rounded-full border-2 h-[200px] w-[200px] overflow-hidden
                         sm:h-[300px] sm:w-[300px]
                         md:h-[450px] md:w-[450px]'>
-          <img className=' object-cover md:w-[450px] translate-y-5' src='../../public/profile-photo.jpg'></img>
+          <img className=' object-cover md:w-[450px] translate-y-5' src='https://i.ibb.co/RY4mSzK/profile-photo.jpg'></img>
         </div>
       </div>
 

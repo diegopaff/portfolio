@@ -9,7 +9,7 @@ const CopyMail = () => {
         setTimeout(() => {setCopied(false)}, 3000);
     }
   return (
-    <div className='flex flex-col mt-9 items-center gap-3 font-poppins text-white relative'>
+    <div className='flex flex-col mt-9 items-center gap-3 font-poppins text-gray-500 relative'>
         <p className='font-regular text-xs'> Via mail at</p>
         <CopyToClipboard  text='difercuru@gmail.com'>
             <div onClick={CopyHandler} className={`py-3 flex justify-center items-center shadow w-[200px] cursor-pointer bg-[#0F172A] hover:bg-[#7477FF] focus:shadow-outline focus:outline-none hover:text-[#0F172A] font-regular rounded h-9
