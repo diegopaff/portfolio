@@ -1,16 +1,16 @@
 import React from 'react';
-import { About, Contact, Footer, Hero, Navbar, Projects, Skills } from './components'; 
+import { About, Contact, Footer, Hero, Navbar, Projects, Skills} from './components'; 
 
 const App = () => {
   return (
     <div className='bg-[#0F172A] overflow-hidden flex flex-col'>
-      <div className={`w-full flex justify-center`}>
+      <header className={`w-full flex justify-center`}>
         <Navbar/>
-      </div>
+      </header>
 
-      <div className={`bg-[#0F172A] h-screen mt-[-18px] mb-20 `}>
+      <section className={`bg-[#0F172A] h-screen mt-[-18px] mb-20 `}>
         <Hero/>
-      </div>
+      </section>
 
       <div className='diagonal-dark-to-light'></div>
 
@@ -26,12 +26,14 @@ const App = () => {
         </div>
         <div className='diagonal-dark-to-light'></div>
 
-        <div id='Projects' className=''>
+        <div id='Projects' >
           <Projects/>
         </div>
 
-        <div id='Contact'>
+        <div id='Contact' className='flex flex-col py-12'>
+          
           <Contact/>
+          
         </div >
                 
         

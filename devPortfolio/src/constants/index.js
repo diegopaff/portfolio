@@ -23,13 +23,13 @@ export const projectsList = [
         title: 'E-commerce',
         tools: ['React Js','Firebase', 'Javascript', 'CSS'],
         thumbnail: 'Eshop.jpg',
-        description: 'Description here (No responsive)',
+        description: 'This project its a e-commerce that fetch data from a firestore database and let you see and shop in a simple way.',
         liveLink: 'https://eshopcommerce.netlify.app/',
         repoLink: 'https://github.com/diegopaff/coder_react'
     },
     {
         title: 'Video Editor Portfolio',
-        tools: ['React Js','Tailwind', 'Javascript', 'CSS', 'Email-js'],
+        tools: ['React Js','Tailwind', 'Javascript', 'Email-js'],
         thumbnail: 'EditorPortfolio.jpg',
         description: "This project it's a static page that showcase all the latest work of a video editor, you can contact him via form and see and download his Resume." ,
         liveLink: 'https://diegocurutcheteditor.netlify.app/',

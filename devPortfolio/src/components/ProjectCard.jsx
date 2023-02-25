@@ -7,7 +7,7 @@ const ProjectCard = ( Project ) => {
     /* Project.Project.tools.map( item => console.log(item)) */
   return (
     
-        <div className="max-w-sm flex flex-col h-[550px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
+        <div className="max-w-sm flex flex-col h-[400px] md:h-[450px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
 
             <div className='opacity-30 hover:opacity-90 transition-all ease-in-outn h-[200px] overflow-hidden hover:h-[350px] duration-700'>
                 <img className="rounded-t-lg grayscale-0" src={`../../public/${Project.Project.thumbnail}`} alt="" />
@@ -16,9 +16,9 @@ const ProjectCard = ( Project ) => {
                 <div>
 
                     <a href="#">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white"> {Project.Project.title}</h5>
+                        <h5 className="mb-2  text-xl m:text-2xl  font-bold tracking-tight text-white dark:text-white"> {Project.Project.title}</h5>
                     </a>
-                    <p className="mb-3 font-normal text-white dark:text-gray-400"> {Project.Project.description}</p>
+                    <p className="mb-3 font-normal text-sm m:text-base text-white dark:text-gray-400"> {Project.Project.description}</p>
                     <div className='flex flex-row flex-wrap gap-3'>
                     {Project.Project.tools.map( (item, index) => (
                         <div key={`toolIcon${index}`} className=' border-[1px] border-gray-500 p-1 w-auto' title={item}>
