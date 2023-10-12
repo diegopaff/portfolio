@@ -31,7 +31,7 @@ const App = () => {
           <Projects/>
         </section>
 
-        <section id='SmallProjects' className='grid place-items-center'>
+        <section id='SmallProjects' className='flex flex-col gap-9 justify-start  mt-9 m:mt-32 items-center px-5 py-7 bg-[#1E293B]'>
           <SmallProjects/>
         </section>
 

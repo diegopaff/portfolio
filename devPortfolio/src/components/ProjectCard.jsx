@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai'
+import ToolUsedUI from './ToolUsedUI';
 
 
 const ProjectCard = ( { Project } ) => {
@@ -20,9 +21,7 @@ const ProjectCard = ( { Project } ) => {
                     <p className="mb-3 font-normal text-sm m:text-base text-white dark:text-gray-400"> {Project.description}</p>
                     <div className='flex flex-row flex-wrap gap-3'>
                     {Project.tools.map( (item, index) => (
-                        <div key={`toolIcon${index}`} className=' border-[1px] border-gray-500 p-1 w-auto' title={item}>
-                            <p className='font-poppins font-regular text-gray-500 text-xs cursor-default'> {item} </p>
-                        </div>
+                        <ToolUsedUI key={`ProjectTools${item}${index}`} item={item} />
                         ))}
                     </div>
                 </div>

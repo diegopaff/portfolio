@@ -64,6 +64,22 @@ export const smallProjectsList = [
         liveLink: 'https://front-m-challenge04.netlify.app/',
         repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
+    {
+        title: 'Credit Card Form UI ',
+        tools: ['React','Javascript','HTML', 'SASS', 'CSS'],
+        thumbnail: '',
+        description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
+        liveLink: '',
+        repoLink: ''
+    },
+    {
+        title: 'Words and Character Counter',
+        tools: ['Javascript','HTML', 'CSS'],
+        thumbnail: '',
+        description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
+        liveLink: '',
+        repoLink: ''
+    }
 
 ] 
 

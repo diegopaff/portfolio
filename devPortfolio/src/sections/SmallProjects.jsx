@@ -1,11 +1,14 @@
 import React from 'react'
+import SmallProjectContainer from '../components/SmallProjects/SmallProjectContainer'
 
 const SmallProjects = () => {
   return (
     <>
-      <div className='bg-green-500 w-[1600px] h-72'>
-        hola
-      </div>
+        <h2 className='font-poppins font-semibold text-xl text-white border-b-8 border-[#7477FF] 
+                      md:justify-self-start'>
+          Small Projects
+        </h2>
+        <SmallProjectContainer/>
     </>
   )
 }
