@@ -1,5 +1,6 @@
 import React from 'react';
-import { About, Contact, Footer, Hero, Navbar, Projects, Skills} from './components'; 
+import { Footer, Navbar} from './components'; 
+import { Contact, About, Hero, Projects, Skills, SmallProjects } from './sections'
 
 const App = () => {
   return (
@@ -16,19 +17,23 @@ const App = () => {
 
       <div className={`bg-[#1E293B]`}>
         
-        <div id='About' className={``}>
+        <section id='About' className={``}>
           <About/>
-        </div>
+        </section>
 
         <div className='diagonal-light-to-dark'></div> 
-        <div id='Skills' className={`bg-[#0F172A]`}>
+        <section id='Skills' className={`bg-[#0F172A]`}>
           <Skills/>
-        </div>
+        </section>
         <div className='diagonal-dark-to-light'></div>
 
-        <div id='Projects' >
+        <section id='Projects' >
           <Projects/>
-        </div>
+        </section>
+
+        <section id='SmallProjects' className='grid place-items-center'>
+          <SmallProjects/>
+        </section>
 
         <div id='Contact' className='flex flex-col py-12'>
           
