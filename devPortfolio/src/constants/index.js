@@ -51,10 +51,10 @@ export const smallProjectsList = [
     {
         title: 'Remote dev jobs search',
         tools: ['Javascript','HTML', 'CSS', 'Webpack', 'API fetch'],
-        thumbnail: '',
-        description: 'This project its Single page aplication that shows a list jobs (fake) consumed of an API, and',
-        liveLink: '',
-        repoLink: ''
+        thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
+        description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
+        liveLink: 'https://front-m-challenge04.netlify.app/',
+        repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
     {
         title: 'Responsive marketing agency landing page',
@@ -67,18 +67,18 @@ export const smallProjectsList = [
     {
         title: 'Credit Card Form UI ',
         tools: ['React','Javascript','HTML', 'SASS', 'CSS'],
-        thumbnail: '',
+        thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
         description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
-        liveLink: '',
-        repoLink: ''
+        liveLink: 'https://front-m-challenge04.netlify.app/',
+        repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
     {
         title: 'Words and Character Counter',
         tools: ['Javascript','HTML', 'CSS'],
-        thumbnail: '',
+        thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
         description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
-        liveLink: '',
-        repoLink: ''
+        liveLink: 'https://front-m-challenge04.netlify.app/',
+        repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     }
 
 ] 
