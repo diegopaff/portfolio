@@ -49,6 +49,7 @@ export const projectsList = [
 
 export const smallProjectsList = [
     {
+        id: 'RemoteJobDevSearch',
         title: 'Remote dev jobs search',
         tools: ['Javascript','HTML', 'CSS', 'Webpack', 'API fetch'],
         thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
@@ -57,6 +58,7 @@ export const smallProjectsList = [
         repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
     {
+        id: 'ResponsiveMarketingAgency',
         title: 'Responsive marketing agency landing page',
         tools: ['React','Javascript','HTML', 'SASS', 'CSS'],
         thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
@@ -65,6 +67,7 @@ export const smallProjectsList = [
         repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
     {
+        id: 'CreditCardForm',
         title: 'Credit Card Form UI ',
         tools: ['React','Javascript','HTML', 'SASS', 'CSS'],
         thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
@@ -73,6 +76,7 @@ export const smallProjectsList = [
         repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
     },
     {
+        id: 'WordsCounter',
         title: 'Words and Character Counter',
         tools: ['Javascript','HTML', 'CSS'],
         thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',

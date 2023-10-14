@@ -1,10 +1,13 @@
 import SmallProjectDetail from "./SmallProjectDetail"
 import SmallProjectItem from './SmallProjectItem'
 import { smallProjectsList } from '../../constants'
+import { useEffect, useState } from "react"
+import { useItem } from "../../hooks/useItem"
 
 const SmallProjectsContainer = () => {
 
-    
+    const [activeProjectId, setActiveProjectId] = useState('RemoteJobDevSearch');
+
     
     return (
         <div className="w-[1200px] bg-slate-300 h-[600px] flex flex-row rounded-lg overflow-hidden">
@@ -13,10 +16,11 @@ const SmallProjectsContainer = () => {
                     <SmallProjectItem
                         key={`smallProjec${index}`}
                         itemInfo={projectInfo}
+                        setActiveProjectId={setActiveProjectId}
                     />
             ))}
             </ul>
-            <SmallProjectDetail/>
+            <SmallProjectDetail activeProjectId={activeProjectId}/>
         </div>
     )
 }

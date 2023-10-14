@@ -3,19 +3,20 @@ import { smallProjectsList } from "../constants";
 import { useEffect, useState } from 'react'
 
 
-export function useItem(project) {
+export function useItem(projectId) {
+    
     const [activeProyect, setActiveProyect] = useState({});
-
 
     useEffect(()=>{
         smallProjectsList.forEach((item)=> {
-            if (item.title === project.title){
+            
+            if (item.id === projectId){
                 setActiveProyect(item);
+                
             }
         })
-    }, []);
+    }, [projectId]);
 
-
-    console.log(activeProyect)
-    return {activeProyect}
+   
+    return activeProyect;
 }

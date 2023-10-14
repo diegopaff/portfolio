@@ -1,13 +1,19 @@
 import React from 'react'
 import ToolUsedUI from '../ToolUsedUI'
 import './SmallProjectsStyles.css'
+import { useItem } from '../../hooks/useItem'
 
-const SmallProjectItem = ({ itemInfo }) => {
-  
+
+const SmallProjectItem = ({ itemInfo, setActiveProjectId }) => {
+  const hanldeClick = (ev) => {
+    setActiveProjectId(ev.target.id);
+  }
 
   return (
     <button  
-      className={`h-[100px] bg-[#0F172A] cursor-pointer p-3 flex flex-col justify-between w-full`}>
+      className={`h-[100px] bg-[rgb(15,23,42)] cursor-pointer p-3 flex flex-col justify-between w-full hover:bg-[#192541] ease-in-out duration-300`}
+      onClick={hanldeClick}
+      id={itemInfo.id}>
         <h3 className=' text-white font-semibold'> { itemInfo.title } </h3>
         <div className='flex flex-row flex-wrap gap-3'>
           {itemInfo.tools.map((item,index) => (
