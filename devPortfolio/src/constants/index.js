@@ -48,16 +48,16 @@ export const projectsList = [
 ]
 
 export const smallProjectsList = [
-    {
+    {// listo
         id: 'RemoteJobDevSearch',
         title: 'Remote dev jobs search',
         tools: ['Javascript','HTML', 'CSS', 'Webpack', 'API fetch'],
-        thumbnail: 'https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg',
-        description: "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
-        liveLink: 'https://front-m-challenge04.netlify.app/',
-        repoLink: 'https://github.com/diegopaff/Frontend-Mentor_ch_04'
+        thumbnail: 'https://i.ibb.co/bPm474j/remote-Dev-Desktop.jpg',
+        description: "Made with vanilla Javascript and CSS, you can find remote developer jobs and add them to bookmarks.",
+        liveLink: 'https://remote-dev-job-search-js.netlify.app/',
+        repoLink: 'https://github.com/diegopaff/JS_proyect_4'
     },
-    {
+    {// listo
         id: 'ResponsiveMarketingAgency',
         title: 'Responsive marketing agency landing page',
         tools: ['React','Javascript','HTML', 'SASS', 'CSS'],
