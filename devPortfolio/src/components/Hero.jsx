@@ -62,7 +62,7 @@ const Hero = () => {
         <img
           className="w-full object-contain
                      sm:max-w-md"
-          src="../assets/hero-img-min.png"
+          src="../src/assets/hero-img-min.png"
         ></img>
       </div>
     </div>

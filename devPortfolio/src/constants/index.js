@@ -21,7 +21,7 @@ export const projectsList = [
   {
     title: "E-commerce",
     tools: ["React Js", "Firebase", "Javascript", "CSS"],
-    thumbnail: "../assets/Eshop-min.jpg",
+    thumbnail: "../src/assets/Eshop-min.jpg",
     description:
       "This project its a e-commerce that fetch data from a firestore database and let you see and shop in a simple way.",
     liveLink: "https://eshopcommerce.netlify.app/",
@@ -30,7 +30,7 @@ export const projectsList = [
   {
     title: "Video Editor Portfolio",
     tools: ["React Js", "Tailwind", "Javascript", "Email-js"],
-    thumbnail: "../assets/EditorPortfolio-min.jpg",
+    thumbnail: "../src/assets/EditorPortfolio-min.jpg",
     description:
       "This project it's a static page that showcase all the latest work of a video editor, you can contact him via form and see and download his Resume.",
     liveLink: "https://diegocurutcheteditor.netlify.app/",
@@ -39,7 +39,7 @@ export const projectsList = [
   {
     title: "Movie watchlist",
     tools: ["Javascript", "CSS", "HTML5"],
-    thumbnail: "../assets/movieWatch-min.jpg",
+    thumbnail: "../src/assets/movieWatch-min.jpg",
     description:
       "The objective of this website is to satisfy my passion for cinema and complete checklists. This way I can add all the movies I already watched and the ones I want to watch in a simple way.",
     liveLink: "https://diegopaff.github.io/movieWatch/",
