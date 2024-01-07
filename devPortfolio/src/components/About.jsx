@@ -14,7 +14,7 @@ const About = () => {
         >
           <img
             className=" object-cover md:w-[450px] translate-y-5"
-            src="../../public/profile-photo-min.jpg"
+            src="https://i.ibb.co/pJYZ8k8/profile-photo-min.jpg"
           ></img>
         </div>
       </div>
