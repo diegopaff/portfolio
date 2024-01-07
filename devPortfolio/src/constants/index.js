@@ -47,9 +47,9 @@ export const projectsList = [
     tools: ["Javascript", "CSS", "HTML5"],
     thumbnail: "https://i.ibb.co/ngzZWTw/remote-Dev-Desktop-min-1.jpg",
     description:
-      "This project it's a static page that showcase all the latest work of a video editor, you can contact him via form and see and download his Resume.",
-    liveLink: "https://diegocurutcheteditor.netlify.app/",
-    repoLink: "https://github.com/diegopaff/portfolio_av",
+      "Discover remote developer roles effortlessly with 'rmtDev'. Access a curated list of simulated job postings, explore diverse opportunities, and find your next coding adventure!",
+    liveLink: "https://remote-dev-job-search-js.netlify.app/",
+    repoLink: "https://github.com/diegopaff/JS_proyect_4",
   },
   {
     title: "Word Counter",
@@ -62,6 +62,7 @@ export const projectsList = [
   },
 ];
 
+/*
 export const smallProjectsList = [
   {
     title: "Remote dev jobs search",
@@ -82,4 +83,4 @@ export const smallProjectsList = [
     liveLink: "https://front-m-challenge04.netlify.app/",
     repoLink: "https://github.com/diegopaff/Frontend-Mentor_ch_04",
   },
-];
+];*/
