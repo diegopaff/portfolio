@@ -14,7 +14,7 @@ const About = () => {
         >
           <img
             className=" object-cover md:w-[450px] translate-y-5"
-            src="../src/assets/profile-photo-min.jpg"
+            src="../../public/profile-photo-min.jpg"
           ></img>
         </div>
       </div>
