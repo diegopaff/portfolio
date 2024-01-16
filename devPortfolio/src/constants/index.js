@@ -52,6 +52,15 @@ export const projectsList = [
     repoLink: "https://github.com/diegopaff/JS_proyect_4",
   },
   {
+    title: "ShootReady? Track your gear packing",
+    tools: ["React", "Typescript", "CSS3", "HTML5", "Zustand"],
+    thumbnail: "https://i.ibb.co/y4KGyXv/shootready.jpg",
+    description:
+      "ShootReady is a web application for managing your video shoot preparations. Create and organize your todo list with categories, mark items as packed and don't forget anything",
+    liveLink: "https://shootready.netlify.app",
+    repoLink: "https://github.com/diegopaff/ShootReady---React",
+  },
+  {
     title: "Word Counter",
     tools: ["React Js", "Typescript", "CSS", "HTML5"],
     thumbnail: "https://i.ibb.co/BgLM5Y9/Fancy-text-counter-min.jpg",
