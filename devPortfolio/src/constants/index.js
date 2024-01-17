@@ -1,3 +1,5 @@
+import { SiCss3, SiHtml5 } from "react-icons/si";
+
 export const navLinks = [
   {
     id: "about",
@@ -17,12 +19,6 @@ export const navLinks = [
   },
 ];
 
-/*<img src="https://i.ibb.co/BgLM5Y9/Fancy-text-counter-min.jpg" alt="Fancy-text-counter-min" border="0">
-<img src="https://i.ibb.co/ngzZWTw/remote-Dev-Desktop-min-1.jpg" alt="remote-Dev-Desktop-min-1" border="0">
-<img src="https://i.ibb.co/n1BdSdR/Eshop-min.jpg" alt="Eshop-min" border="0">
-<img src="https://i.ibb.co/WWVWgdS/Editor-Portfolio-min.jpg" alt="Editor-Portfolio-min" border="0">
-<img src="https://i.ibb.co/pJYZ8k8/profile-photo-min.jpg" alt="profile-photo-min" border="0">
-<img src="https://i.ibb.co/n09VqCH/hero-img-min.png" alt="hero-img-min" border="0"></img>*/
 export const projectsList = [
   {
     title: "E-commerce",

@@ -4,15 +4,18 @@ import { AiFillGithub } from "react-icons/ai";
 const ProjectCard = (Project) => {
   /* Project.Project.tools.map( item => console.log(item)) */
   return (
-    <div className="w-[390px] flex flex-col h-[400px] md:h-[450px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-105 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins">
-      <div className="opacity-30 hover:opacity-90 transition-all ease-in-outn h-[200px] overflow-hidden hover:h-[350px] duration-700">
+    <div
+      className="w-[360px] flex flex-col h-[400px] 
+    md:h-[650px] md:w-[700px] bg-[#0F172A] overflow-hidden duration-500 hover:scale-[102%] rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 text-white font-poppins"
+    >
+      <div className="opacity-80 hover:opacity-90 transition-all ease-in-outn h-[100%] overflow-hidden  duration-700">
         <img
-          className="rounded-t-lg grayscale-0"
+          className="rounded-t-lg grayscale-0 object-cover h-full"
           src={`${Project.Project.thumbnail}`}
           alt=""
         />
       </div>
-      <div className="p-5 flex flex-col justify-between h-full">
+      <div className="p-5 flex flex-col justify-between h-30%">
         <div>
           <a href="#">
             <h5 className="mb-2  text-xl m:text-2xl  font-bold tracking-tight text-white dark:text-white">
@@ -24,6 +27,7 @@ const ProjectCard = (Project) => {
             {" "}
             {Project.Project.description}
           </p>
+          {/* Technolgies badges */}
           <div className="flex flex-row flex-wrap gap-3">
             {Project.Project.tools.map((item, index) => (
               <div
