@@ -3,16 +3,20 @@ import { useItem } from "../../hooks/useItem";
 import { AiFillGithub } from "react-icons/ai";
 import "./SmallProjectsStyles.css";
 
-const SmallProjectDetail = ({ activeProjectId }) => {
+const SmallProjectDetail = ({ activeProjectId, isMobile }) => {
   const { title, thumbnail, description, liveLink, repoLink } =
     useItem(activeProjectId);
 
   return (
     <div
       style={{ "--image-url": `url(${thumbnail})` }}
-      className={`basis-2/3 bg-[image:var(--image-url)] bg-cover bg-center relative flex flex-col justify-end gap-3 `}
+      className={`basis-2/3 bg-[image:var(--image-url)] bg-cover bg-center relative flex flex-col justify-end gap-3 min-h-[200px] `}
     >
-      <div className="absolute ] h-full w-full z-0 border-accent border-4 hover:to-[rgba(15,23,42,0)] duration-500 ease-in"></div>
+      <div
+        className={`absolute  h-full w-full border-accent border-4 ${
+          isMobile && "bg-black opacity-25 z-10"
+        }`}
+      ></div>
       <h3 className=" text-white z-10 font-bold text-xl mx-6">{title}</h3>
       <p className=" text-white z-10 font-medium mx-6">{description}</p>
       <div className="flex flex-row gap-6 z-10 mb-6 ml-6">
