@@ -3,7 +3,7 @@ import SmallProjectDetail from "./SmallProjectDetail";
 
 function SmallProjectMobileContainer({ isMobile }) {
   return (
-    <div className=" relative">
+    <div className="relative">
       {smallProjectsList.map((project) => (
         <>
           <SmallProjectDetail

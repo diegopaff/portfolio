@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SmallProjectContainer from "../components/SmallProjects/SmallProjectContainer";
 import SmallProjectMobileContainer from "../components/SmallProjects/SmallProjectMobileContainer";
-import VideoTest from "../components/VideoTest";
 
 const SmallProjects = () => {
   const [screenSize, setScreenSize] = useState(false);
@@ -32,7 +31,6 @@ const SmallProjects = () => {
 
       {screenSize && <SmallProjectMobileContainer isMobile={screenSize} />}
       {!screenSize && <SmallProjectContainer isMobile={screenSize} />}
-      <VideoTest />
     </>
   );
 };
