@@ -1,15 +1,15 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import { projectsList } from "../constants";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col gap-9 justify-start mt-9 m:mt-32 items-center px-5 py-7">
+    <div className="flex flex-col gap-9 justify-start  mt-9 m:mt-32 items-center px-5 py-7">
       <h2
         className="font-poppins font-semibold text-xl text-white border-b-8 border-[#7477FF] 
                      md:justify-self-start"
       >
-        Projects
+        Main Projects
       </h2>
       <div
         className="flex flex-col gap-9 my-9 m:my-32 items-center
