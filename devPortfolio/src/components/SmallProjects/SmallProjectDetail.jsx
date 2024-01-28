@@ -10,7 +10,7 @@ const SmallProjectDetail = ({ activeProjectId, isMobile }) => {
   return (
     <div
       style={{ "--image-url": `url(${thumbnail})` }}
-      className={`basis-2/3 bg-[image:var(--image-url)] bg-cover bg-center relative flex flex-col justify-end gap-3 min-h-[400px] brightness-100
+      className={`basis-2/3 bg-[image:var(--image-url)] bg-[#0b1220] bg-cover bg-center relative flex flex-col justify-end gap-3 min-h-[400px] brightness-100
       ${
         isMobile &&
         "hover:scale-[102%] ease transition-all duration-500 drop-shadow-lg hover:brightness-110"

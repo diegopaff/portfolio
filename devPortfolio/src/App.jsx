@@ -39,7 +39,7 @@ const App = () => {
 
         <section
           id="Projects"
-          className="flex flex-col gap-9 justify-start  mt-9 m:mt-32 items-center px-5 py-7 bg-[#1E293B]"
+          className="flex flex-col gap-9 justify-start  mt-9 m:mt-32 items-center px-5 py-7 bg-[#1E293B] min-h-screen"
         >
           <SmallProjects />
         </section>

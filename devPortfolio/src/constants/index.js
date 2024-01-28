@@ -47,13 +47,23 @@ export const projectsList = [
   },
 ];
 
+/*
+<img src="https://i.ibb.co/f24ntPW/remote-Dev-project.jpg" alt="remote-Dev-project" border="0">
+<img src="https://i.ibb.co/K6dkYsb/educar-project.jpg" alt="educar-project" border="0">
+<img src="https://i.ibb.co/Hqdj4n8/shootready-project.jpg" alt="shootready-project" border="0">
+<img src="https://i.ibb.co/b6TRvqC/corp-comment-project.jpg" alt="corp-comment-project" border="0">
+<img src="https://i.ibb.co/frRGc6V/creditcard-project-1.jpg" alt="creditcard-project-1" border="0">
+<img src="https://i.ibb.co/x8GQ6gt/sunnyside-project-1.jpg" alt="sunnyside-project-1" border="0">
+<img src="https://i.ibb.co/ZmypYVD/ecommerce-project.jpg" alt="ecommerce-project" border="0">
+
+*/
 export const smallProjectsList = [
   {
     // 1 -> remoteJobDevSearch
     id: "RemoteJobDevSearch",
     title: "Remote dev jobs search",
     tools: ["Javascript", "HTML", "CSS", "Webpack", "API fetch"],
-    thumbnail: "../../public/creditcard-project.jpg",
+    thumbnail: "https://i.ibb.co/f24ntPW/remote-Dev-project.jpg",
     description:
       "Made with vanilla Javascript and CSS, you can find remote developer jobs and add them to bookmarks.",
     liveLink: "https://remote-dev-job-search-js.netlify.app/",
@@ -64,7 +74,7 @@ export const smallProjectsList = [
     id: "educar",
     title: "Educar - tu próximo colegio",
     tools: ["Nextjs", "Tailwind", "NextUi"],
-    thumbnail: "",
+    thumbnail: "https://i.ibb.co/K6dkYsb/educar-project.jpg",
     description:
       "This project its a collaboration with NoCountry, Educar helps you to find the best school for your kids.",
     liveLink: "https://educ-ar-frontend.vercel.app/",
@@ -75,7 +85,7 @@ export const smallProjectsList = [
     id: "Ecommerce",
     title: "E-commerce",
     tools: ["React Js", "Firebase", "Javascript", "CSS"],
-    thumbnail: "",
+    thumbnail: "https://i.ibb.co/ZmypYVD/ecommerce-project.jpg",
     description:
       "This project its a e-commerce that fetch data from a firestore database and let you see and shop in a simple way.",
     liveLink: "https://eshopcommerce.netlify.app/",
@@ -85,30 +95,30 @@ export const smallProjectsList = [
     // 4 -> shootReady?
     id: "shootReady",
     title: "ShootReady? keep track of your gear packing",
-    tools: ["React", "Typescript", "CSS"],
-    thumbnail: "",
+    tools: ["React", "Typescript", "CSS", "zustand"],
+    thumbnail: "https://i.ibb.co/Hqdj4n8/shootready-project.jpg",
     description:
-      "ShootReady is a web application for managing your video shoot preparations. Create and organize your todo list with categories, mark items as completed, and stay organized.",
+      "ShootReady is a web application for managing your video shoot preparations. Create and organize your to do list with categories, mark items as completed, and stay organized.",
     liveLink: "https://shootready.netlify.app/",
     repoLink: "https://github.com/diegopaff/ShootReady---React",
   },
   {
-    // 5 -> WordsCounter
-    id: "WordsCounter",
-    title: "Words and Character Counter",
+    // 5 -> CorpComment - give feedback to anyone
+    id: "corpcomment",
+    title: "CorpComment",
     tools: ["React", "Typescript", "CSS"],
-    thumbnail: "",
+    thumbnail: "https://i.ibb.co/b6TRvqC/corp-comment-project.jpg",
     description:
-      "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
-    liveLink: "",
-    repoLink: "",
+      "CorpComment is your platform to share candid opinions and reviews about any company. With a simple hashtag system, express your thoughts and experiences openly, helping others make informed decisions about the companies they engage with.",
+    liveLink: "https://corpcomment-react.netlify.app",
+    repoLink: "https://github.com/diegopaff/CorpComment---React",
   },
   {
     // 6 -> Marketing Landing Page
     id: "ResponsiveMarketingAgency",
     title: "Responsive marketing agency landing page",
     tools: ["React", "Javascript", "HTML", "SASS", "CSS"],
-    thumbnail: "../../public/sunnyside-project.jpg",
+    thumbnail: "https://i.ibb.co/x8GQ6gt/sunnyside-project-1.jpg",
     description:
       "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
     liveLink: "https://front-m-challenge04.netlify.app/",
@@ -119,7 +129,7 @@ export const smallProjectsList = [
     id: "CreditCardForm",
     title: "Credit Card Form UI ",
     tools: ["React", "Javascript", "HTML", "SASS", "CSS"],
-    thumbnail: "../../public/creditcard-project.jpg",
+    thumbnail: "https://i.ibb.co/frRGc6V/creditcard-project-1.jpg",
     description:
       "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
     liveLink: "https://front-m-challenge04.netlify.app/",

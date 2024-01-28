@@ -12,6 +12,7 @@ const SmallProjectsContainer = ({ isMobile }) => {
         {smallProjectsList.map((projectInfo, index) => (
           <SmallProjectItem
             key={`smallProjec${index}`}
+            number={index}
             itemInfo={projectInfo}
             setActiveProjectId={setActiveProjectId}
             activeProjectId={activeProjectId}

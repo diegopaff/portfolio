@@ -1,22 +1,17 @@
 import { smallProjectsList } from "../constants";
 
-import { useEffect, useState } from 'react'
-
+import { useEffect, useState } from "react";
 
 export function useItem(projectId) {
-    
-    const [activeProyect, setActiveProyect] = useState({});
+  const [activeProject, setActiveProject] = useState({});
 
-    useEffect(()=>{
-        smallProjectsList.forEach((item)=> {
-            
-            if (item.id === projectId){
-                setActiveProyect(item);
-                
-            }
-        })
-    }, [projectId]);
+  useEffect(() => {
+    smallProjectsList.forEach((item) => {
+      if (item.id === projectId) {
+        setActiveProject(item);
+      }
+    });
+  }, [projectId]);
 
-   
-    return activeProyect;
+  return activeProject;
 }

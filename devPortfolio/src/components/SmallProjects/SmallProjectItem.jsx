@@ -7,6 +7,7 @@ const SmallProjectItem = ({
   itemInfo,
   setActiveProjectId,
   activeProjectId,
+  number,
 }) => {
   const activeStyle = activeProjectId == itemInfo.id ? true : false;
   const hanldeClick = (ev) => {
@@ -23,9 +24,10 @@ const SmallProjectItem = ({
       onClick={hanldeClick}
       id={itemInfo.id}
     >
-      <h3 className=" text-white font-semibold text-lg mt-2 ml-2">
-        {itemInfo.title}
-      </h3>
+      <div className=" text-white font-semibold text-base flex gap-4 mt-2 ml-3 items-center">
+        <h2 className="font-bold text-accent text-lg "> {`${number}) `} </h2>
+        <h3 className=" ">{` ${itemInfo.title}.`}</h3>
+      </div>
       <div className="flex flex-row flex-wrap gap-3 mb-2 ml-2">
         {itemInfo.tools.map((item, index) => (
           <ToolUsedUI key={`SmallProjectsTools${item}${index}`} item={item} />
