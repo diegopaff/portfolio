@@ -49,7 +49,7 @@ export const projectsList = [
 
 export const smallProjectsList = [
   {
-    // listo
+    // 1 -> remoteJobDevSearch
     id: "RemoteJobDevSearch",
     title: "Remote dev jobs search",
     tools: ["Javascript", "HTML", "CSS", "Webpack", "API fetch"],
@@ -60,7 +60,51 @@ export const smallProjectsList = [
     repoLink: "https://github.com/diegopaff/JS_proyect_4",
   },
   {
-    // listo
+    // 2 -> Educar
+    id: "educar",
+    title: "Educar - tu próximo colegio",
+    tools: ["Nextjs", "Tailwind", "NextUi"],
+    thumbnail: "",
+    description:
+      "This project its a collaboration with NoCountry, Educar helps you to find the best school for your kids.",
+    liveLink: "https://educ-ar-frontend.vercel.app/",
+    repoLink: "https://github.com/No-Country/c15-40-t-java-react",
+  },
+  {
+    // 3 -> eCommerce
+    id: "Ecommerce",
+    title: "E-commerce",
+    tools: ["React Js", "Firebase", "Javascript", "CSS"],
+    thumbnail: "",
+    description:
+      "This project its a e-commerce that fetch data from a firestore database and let you see and shop in a simple way.",
+    liveLink: "https://eshopcommerce.netlify.app/",
+    repoLink: "https://github.com/diegopaff/coder_react",
+  },
+  {
+    // 4 -> shootReady?
+    id: "shootReady",
+    title: "ShootReady? keep track of your gear packing",
+    tools: ["React", "Typescript", "CSS"],
+    thumbnail: "",
+    description:
+      "ShootReady is a web application for managing your video shoot preparations. Create and organize your todo list with categories, mark items as completed, and stay organized.",
+    liveLink: "https://shootready.netlify.app/",
+    repoLink: "https://github.com/diegopaff/ShootReady---React",
+  },
+  {
+    // 5 -> WordsCounter
+    id: "WordsCounter",
+    title: "Words and Character Counter",
+    tools: ["React", "Typescript", "CSS"],
+    thumbnail: "",
+    description:
+      "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
+    liveLink: "",
+    repoLink: "",
+  },
+  {
+    // 6 -> Marketing Landing Page
     id: "ResponsiveMarketingAgency",
     title: "Responsive marketing agency landing page",
     tools: ["React", "Javascript", "HTML", "SASS", "CSS"],
@@ -71,21 +115,11 @@ export const smallProjectsList = [
     repoLink: "https://github.com/diegopaff/Frontend-Mentor_ch_04",
   },
   {
+    // 7 -> CreditCard UI
     id: "CreditCardForm",
     title: "Credit Card Form UI ",
     tools: ["React", "Javascript", "HTML", "SASS", "CSS"],
     thumbnail: "../../public/creditcard-project.jpg",
-    description:
-      "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
-    liveLink: "https://front-m-challenge04.netlify.app/",
-    repoLink: "https://github.com/diegopaff/Frontend-Mentor_ch_04",
-  },
-  {
-    id: "WordsCounter",
-    title: "Words and Character Counter",
-    tools: ["Javascript", "HTML", "CSS"],
-    thumbnail:
-      "https://i.ibb.co/0cb7tzc/Front-End-Mendtor-CH4-hero-desktop.jpg",
     description:
       "This project it's part of a challenge from frontendmentor.com, they give you the images and the design and you deliver pixel perfect production of the website.",
     liveLink: "https://front-m-challenge04.netlify.app/",

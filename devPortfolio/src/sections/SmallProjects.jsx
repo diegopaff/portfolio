@@ -26,7 +26,7 @@ const SmallProjects = () => {
         className="font-poppins font-semibold text-xl text-white border-b-8 border-[#7477FF] 
                       md:justify-self-start"
       >
-        Small Projects
+        Main Projects
       </h2>
 
       {screenSize && <SmallProjectMobileContainer isMobile={screenSize} />}
